@@ -50,7 +50,7 @@ entity_chain = (
 
 # --- FINAL COMBINER ---
 def combine_summary_and_entities(summary, entities):
-    return f"📄 Summary:\n{summary}\n\n🔍 Key Entities:\n{entities}"
+    return f"Summary:\n{summary}\n\n Key Entities:\n{entities}"
 
 # --- FULL PARALLEL CHAIN ---
 pipeline = (

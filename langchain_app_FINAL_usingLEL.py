@@ -51,7 +51,7 @@ pipeline = (
         "summary": summary_chain,
         "entities": entity_chain
     })
-    | (lambda x: f"📄 Summary:\n{x['summary']}\n\n🔍 Key Entities:\n{x['entities']}")
+    | (lambda x: f"Summary:\n{x['summary']}\n\n Key Entities:\n{x['entities']}")
 )
 
 # --- RUN ---
